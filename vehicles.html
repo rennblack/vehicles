@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<style>
+	
+
+</style>
+<head>
+<title>ES6 Classes</title>
+</head>
+	<body>	
+		<h1></h1>
+		<div id="output"></div>
+		<script src="vehicle.js"></script>
+		<script>
+			let bmw = new Vehicle("black", 90, 25, 140, true);
+			let porsche = new Vehicle("red", 0, 50, 180, true);
+			let schoolBus = new Bus("yellow", 180, 20, 75, true);
+			let ems = new Ambulance("white", 269, 12, 90, true);
+			
+			bmw.turnOff();
+			bmw.turnOff();
+			bmw.accelerate();
+			bmw.turnOn();
+			bmw.accelerate();
+			bmw.turnLeft();
+			bmw.accelerate();
+			bmw.boost();
+			
+			porsche.boost();
+			porsche.hardBrake();
+
+			schoolBus.turnLeft();
+			schoolBus.brake();
+			schoolBus.turnLeft();
+
+			ems.turnRight();
+			ems.sirenOn();
+			ems.boost();
+			ems.boost();
+
+
+		</script>
+
+		
+	</body>
+</html>
